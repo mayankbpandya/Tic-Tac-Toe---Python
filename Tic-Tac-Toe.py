@@ -1,16 +1,4 @@
 #tic tac toe
-instructions = """
-This will be our tic tac toe board
- 1 | 2 | 3 
----|---|---
- 4 | 5 | 6 
----|---|---
- 7 | 8 | 9 
-*instructions:
-1. Insert the spot number(1-9) to put your sign,
-2. You must fill all 9 spots to get result,
-3. Player 1 will go first.
-"""
 
 sign_dict = []
 
@@ -58,7 +46,6 @@ if __name__ == "__main__":
   print("Welcome to Mayank's tic tac toe game.")
   player_one = input("Enter player 1 name: ")
   player_two = input("Enter player 2 name: ")
-  print(instructions)
   print(f"Mr. {player_one}'s sign is - X")
   print(f"Mr. {player_two}'s sign is - O")
   input("Press any key to start the game: ")
